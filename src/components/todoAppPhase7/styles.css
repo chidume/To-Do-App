@@ -1,0 +1,48 @@
+body {
+  font-family: Sans-serif;
+  background-color: whitesmoke;
+}
+
+.todo-list {
+  background-color: white;
+  border: 1px solid silver;
+  padding: 30px;
+  width: 20%;
+  min-width: 300px;
+  border-radius: 4px;
+  margin: auto;
+  box-shadow:
+  /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.15),
+      /* The second layer */
+    0 10px 0 -5px #eee,
+      /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+      /* The third layer */
+    0 20px 0 -10px #eee,
+      /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+}
+
+.list-title {
+  text-align: center;
+  background-color: #b3ccec;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.todo-item {
+  border-bottom: 1px solid silver;
+  padding: 10px;
+  font-size: 15px;
+  font-color: silver;
+}
+
+.todo-item:hover {
+  background-color: #b3ccec;
+}
+
+.completed {
+  color: grey;
+  text-decoration: line-through;
+}
